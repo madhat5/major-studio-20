@@ -9,6 +9,7 @@
 - [pages1](https://guides.github.com/features/pages/)
 - [pages2](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 - [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [example MS class](https://elasticspaces.github.io/)
 
 You can use the [editor on GitHub](https://github.com/madhat5/madhat5.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
