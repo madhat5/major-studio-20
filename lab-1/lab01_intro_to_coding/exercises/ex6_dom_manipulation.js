@@ -50,3 +50,18 @@ console.log('the res can be seen in console. the data is pulled from a json obje
 // Task
 // Modify the code above to visualize the Iris dataset in the preview of index.html.
 // Feel free to add additional CSS properties in index.html, or using JavaScript, as you see fit.
+
+function drawIrisData() {
+  window
+    .fetch("./iris_json.json")
+    .then(data => data.json())
+    .then(data => {
+      console.log(data);
+
+      // loops through json, for every item n, takes petallength data item, and runs it through rect method addChildToViz
+      data.forEach(n => {
+        addChildToViz(n.petallength)
+      })
+
+    });
+}
