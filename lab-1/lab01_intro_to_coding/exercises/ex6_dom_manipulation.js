@@ -6,6 +6,8 @@
 // Task
 // What does DOM stand for?
 
+console.log('DOM = Document Object Model');
+
 // Task
 // Open the file index.html in AWS Cloud9. Click "Preview" > "Preview File index.html". (Note that you can open it in a new window). What do you see?
 
@@ -27,6 +29,8 @@ const addChildToViz = () => {
 
 viz.addEventListener("click", addChildToViz);
 
+console.log('this code dynamically generates and appends a div with classname rectangle, with random attributes');
+
 // Task
 // Where can you see the results of the console.log below? How is it different from in previous exercises?
 
@@ -40,6 +44,8 @@ function drawIrisData() {
 }
 
 drawIrisData();
+
+console.log('the res can be seen in console. the data is pulled from a json object')
 
 // Task
 // Modify the code above to visualize the Iris dataset in the preview of index.html.
