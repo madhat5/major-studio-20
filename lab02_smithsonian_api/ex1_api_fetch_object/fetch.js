@@ -3,7 +3,7 @@
 
 
 // put your API key here;
-const apiKey = "dnOFu3sIplmk8ECoTjSqVINpMAVHNqUPrC6AIvbK";
+const apiKey = "";
 
 // Access to individual objects by ID
 const objectBaseURL = "https://api.si.edu/openaccess/api/v1.0/content/";

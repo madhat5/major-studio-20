@@ -22,14 +22,22 @@ function fetchTermsData(termCategory) {
     })
   }
 
-fetchTermsData("online_media_type")
+fetchTermsData("unit_code")
 
 /*
 Task: Play around with the different categories listed here:
 http://edan.si.edu/openaccess/apidocs/#api-search-terms
 Questions: 
 - What other media types are available? 
+
+  >  ["3D Images", "Catalog cards", "Electronic resource", "Finding aids", "Full text documents", "Images", "Online collections", "Online exhibits", "Scanned books", "Sound recordings", "Specimen labels", "Transcripts", "Video recordings"]
+
 - How many cultures are represented?
+
+(4267)
+
 - What acronyms for museums are there?
+
+["AAA", "AAA TH", "ACM", "CFCHFOLKLIFE", "CHNDM", "FBR", "FSG", "HAC", "HMSG", "HSFA", "NAA", "NASM", "NMAAHC", "NMAH", "NMAI", "NMAfA", "NMNHANTHRO", "NMNHBIRDS", "NMNHBOTANY", "NMNHEDUCATION", "NMNHENTO", "NMNHFISHES", "NMNHHERPS", "NMNHINV", "NMNHMAMMALS", "NMNHMINSCI", "NMNHPALEO", "NPG", "NPM", "NZP", "SAAM", "SI", "SIA", "SIL"]
 
 */
