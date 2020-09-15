@@ -8,7 +8,7 @@ const apiKey = "";
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
 
 // constructing the initial search query
-const search =  'mask AND unit_code:"FSG"';
+const search =  'Cathartidae AND unit_code:"NMNHBIRDS"';
 
 // array that we will write into
 let myArray = [];
