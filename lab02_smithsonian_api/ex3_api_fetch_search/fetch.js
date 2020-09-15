@@ -8,7 +8,7 @@ const apiKey = "";
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
 
 // Constructing the search query
-const search =  `mask AND unit_code:"FSG"` + "&start=" + 0 + "&rows=" + 81;
+const search =  `Accipitridae AND unit_code:"NMNHBIRDS"` + "&start=" + 0 + "&rows=" + 100;
 
 
 // search: fetches an array of terms based on term category
